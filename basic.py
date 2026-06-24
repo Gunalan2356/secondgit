@@ -20,3 +20,10 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+
+print("Result =", result)
